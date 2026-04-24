@@ -4,7 +4,7 @@ Collection de skills Claude Code installés dans ce repo.
 
 Source de la liste curée : <https://github.com/travisvn/awesome-claude-skills>
 
-## Skills installés (75 SKILL.md au total)
+## Skills installés (76 SKILL.md au total)
 
 ### Officiels — `skills/anthropic/` (17 skills, depuis `anthropics/skills`)
 
@@ -26,6 +26,7 @@ Création de skills : `skill-creator`
 - **`skills/frontend-slides/`** — `zarazhangrui/frontend-slides`. Présentations HTML animées
 - **`skills/ffuf/`** — `jthack/ffuf_claude_skill`. Fuzzing web pour pentest
 - **`skills/skill-seekers/`** — `yusufkaraaslan/Skill_Seekers`. Convertit des sites de doc en skills Claude
+- **`skills/frontend-design-plugin/`** — `anthropics/claude-code/plugins/frontend-design`. Version plugin du skill frontend-design (incl. `plugin.json`). Coexiste avec `skills/anthropic/frontend-design/` qui est la version skill-seul.
 
 ## Non installés (disponibles sur demande)
 
