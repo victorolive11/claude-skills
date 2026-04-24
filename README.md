@@ -4,7 +4,7 @@ Collection de skills Claude Code installés dans ce repo.
 
 Source de la liste curée : <https://github.com/travisvn/awesome-claude-skills>
 
-## Skills installés (76 SKILL.md au total)
+## Skills installés (114 SKILL.md au total)
 
 ### Officiels — `skills/anthropic/` (17 skills, depuis `anthropics/skills`)
 
@@ -27,6 +27,7 @@ Création de skills : `skill-creator`
 - **`skills/ffuf/`** — `jthack/ffuf_claude_skill`. Fuzzing web pour pentest
 - **`skills/skill-seekers/`** — `yusufkaraaslan/Skill_Seekers`. Convertit des sites de doc en skills Claude
 - **`skills/frontend-design-plugin/`** — `anthropics/claude-code/plugins/frontend-design`. Version plugin du skill frontend-design (incl. `plugin.json`). Coexiste avec `skills/anthropic/frontend-design/` qui est la version skill-seul.
+- **`skills/marketingskills/`** — `coreyhaines31/marketingskills` (38 skills). Plugin marketing pour marketeurs tech & fondateurs : CRO (landing/form/popup/onboarding/signup/paywall), copywriting, SEO (audit, AI SEO, programmatic, schema), paid ads, ad creative, email sequences, cold email, ASO, pricing, referral, revops, sales enablement, customer research, etc.
 
 ## Non installés (disponibles sur demande)
 
