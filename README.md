@@ -4,7 +4,7 @@ Collection de skills Claude Code installés dans ce repo.
 
 Source de la liste curée : <https://github.com/travisvn/awesome-claude-skills>
 
-## Skills installés (114 SKILL.md au total)
+## Skills installés (121 SKILL.md au total)
 
 ### Officiels — `skills/anthropic/` (17 skills, depuis `anthropics/skills`)
 
@@ -28,6 +28,7 @@ Création de skills : `skill-creator`
 - **`skills/skill-seekers/`** — `yusufkaraaslan/Skill_Seekers`. Convertit des sites de doc en skills Claude
 - **`skills/frontend-design-plugin/`** — `anthropics/claude-code/plugins/frontend-design`. Version plugin du skill frontend-design (incl. `plugin.json`). Coexiste avec `skills/anthropic/frontend-design/` qui est la version skill-seul.
 - **`skills/marketingskills/`** — `coreyhaines31/marketingskills` (38 skills). Plugin marketing pour marketeurs tech & fondateurs : CRO (landing/form/popup/onboarding/signup/paywall), copywriting, SEO (audit, AI SEO, programmatic, schema), paid ads, ad creative, email sequences, cold email, ASO, pricing, referral, revops, sales enablement, customer research, etc.
+- **`skills/ui-ux-pro-max/`** — `nextlevelbuilder/ui-ux-pro-max-skill` v2.5.0 (7 skills). Design intelligence UI/UX : 67 UI styles (glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento, dark mode, flat…), 161 palettes de couleurs, 57 font pairings, 99 UX guidelines, 25 types de charts, 15+ stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Sous-skills : `ui-ux-pro-max`, `ui-styling`, `design`, `design-system`, `brand`, `banner-design`, `slides`.
 
 ## Non installés (disponibles sur demande)
 
