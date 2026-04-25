@@ -4,7 +4,7 @@ Collection de skills Claude Code installés dans ce repo.
 
 Source de la liste curée : <https://github.com/travisvn/awesome-claude-skills>
 
-## Skills installés (136 SKILL.md au total)
+## Skills installés (183 SKILL.md au total)
 
 ### Officiels — `skills/anthropic/` (17 skills, depuis `anthropics/skills`)
 
@@ -33,6 +33,7 @@ Création de skills : `skill-creator`
 - **`skills/planning-with-files/`** — `OthmanAdi/planning-with-files` v2.35.0 (6 skills, multilingue). Planning Manus-style à base de fichiers markdown persistants (`task_plan.md`, `findings.md`, `progress.md`). Récupération automatique de session après `/clear`. Versions : EN, ES, DE, AR, ZH, ZH-T. Hook `UserPromptSubmit` qui restaure le contexte du plan au démarrage de chaque tour.
 - **`skills/mempalace/`** — `mempalace/mempalace` v3.3.3 (1 skill Claude + 1 intégration openclaw). Memory palace AI : mine projets/conversations dans une base searchable (ChromaDB + RAG). 19 outils MCP, hooks d'auto-save, setup guidé. Le plugin nécessite `pip install mempalace` ou équivalent pour activer le serveur MCP.
 - **`skills/code-review-plugin/`** — `anthropics/claude-code/plugins/code-review` v1.0.0. Plugin de revue de code automatique pour PRs : commande `/code-review` qui lance 4 agents parallèles pour auditer les changements, scoring par confiance pour filtrer les faux positifs. Pas un skill mais une `slash command` (`commands/code-review.md`) — utilise `gh` CLI pour les PRs et `mcp__github_inline_comment__create_inline_comment` pour les commentaires inline.
+- **`skills/gstack/`** — `garrytan/gstack` v1.1.0 (47 skills). Toolkit complet de Garry Tan pour engineering/PM/QA : navigation headless (`browse`), QA (`qa`, `qa-only`), reviews (`review`, `devex-review`, `design-review`, `design-consultation`, `plan-eng-review`, `plan-design-review`, `plan-ceo-review`, `plan-devex-review`), deploy (`land-and-deploy`, `setup-deploy`, `ship`, `freeze`/`unfreeze`), context management (`context-save`, `context-restore`), PDF (`make-pdf`), retros (`retro`, `office-hours`), `pair-agent`, `benchmark`, `health`, `guard`, `learn`, `gstack-upgrade`, `setup-gbrain`, `investigate`, etc. Note : exclu les fixtures de tests (29M dans `browse/test/`) pour limiter la taille.
 
 ## Non installés (disponibles sur demande)
 
